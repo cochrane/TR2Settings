@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Tomb Raider 2 Settings' target in the 'Tomb Raider 2 Settings' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

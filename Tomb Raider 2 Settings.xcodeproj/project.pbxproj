@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5279A81C146B3D09005D98F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5279A81B146B3D09005D98F8 /* Cocoa.framework */; };
+		5279A826146B3D09005D98F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5279A824146B3D09005D98F8 /* InfoPlist.strings */; };
+		5279A828146B3D09005D98F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5279A827146B3D09005D98F8 /* main.m */; };
+		5279A82C146B3D09005D98F8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5279A82A146B3D09005D98F8 /* Credits.rtf */; };
+		5279A82F146B3D09005D98F8 /* FQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5279A82E146B3D09005D98F8 /* FQAppDelegate.m */; };
+		5279A832146B3D09005D98F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5279A830146B3D09005D98F8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5279A817146B3D09005D98F8 /* Tomb Raider 2 Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tomb Raider 2 Settings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5279A81B146B3D09005D98F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5279A81E146B3D09005D98F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5279A81F146B3D09005D98F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5279A820146B3D09005D98F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5279A823146B3D09005D98F8 /* Tomb Raider 2 Settings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tomb Raider 2 Settings-Info.plist"; sourceTree = "<group>"; };
+		5279A825146B3D09005D98F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5279A827146B3D09005D98F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5279A829146B3D09005D98F8 /* Tomb Raider 2 Settings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tomb Raider 2 Settings-Prefix.pch"; sourceTree = "<group>"; };
+		5279A82B146B3D09005D98F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5279A82D146B3D09005D98F8 /* FQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQAppDelegate.h; sourceTree = "<group>"; };
+		5279A82E146B3D09005D98F8 /* FQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQAppDelegate.m; sourceTree = "<group>"; };
+		5279A831146B3D09005D98F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5279A814146B3D09005D98F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5279A81C146B3D09005D98F8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5279A80C146B3D08005D98F8 = {
+			isa = PBXGroup;
+			children = (
+				5279A821146B3D09005D98F8 /* Tomb Raider 2 Settings */,
+				5279A81A146B3D09005D98F8 /* Frameworks */,
+				5279A818146B3D09005D98F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5279A818146B3D09005D98F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5279A817146B3D09005D98F8 /* Tomb Raider 2 Settings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5279A81A146B3D09005D98F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5279A81B146B3D09005D98F8 /* Cocoa.framework */,
+				5279A81D146B3D09005D98F8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5279A81D146B3D09005D98F8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5279A81E146B3D09005D98F8 /* AppKit.framework */,
+				5279A81F146B3D09005D98F8 /* CoreData.framework */,
+				5279A820146B3D09005D98F8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5279A821146B3D09005D98F8 /* Tomb Raider 2 Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5279A82D146B3D09005D98F8 /* FQAppDelegate.h */,
+				5279A82E146B3D09005D98F8 /* FQAppDelegate.m */,
+				5279A830146B3D09005D98F8 /* MainMenu.xib */,
+				5279A822146B3D09005D98F8 /* Supporting Files */,
+			);
+			path = "Tomb Raider 2 Settings";
+			sourceTree = "<group>";
+		};
+		5279A822146B3D09005D98F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5279A823146B3D09005D98F8 /* Tomb Raider 2 Settings-Info.plist */,
+				5279A824146B3D09005D98F8 /* InfoPlist.strings */,
+				5279A827146B3D09005D98F8 /* main.m */,
+				5279A829146B3D09005D98F8 /* Tomb Raider 2 Settings-Prefix.pch */,
+				5279A82A146B3D09005D98F8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5279A816146B3D09005D98F8 /* Tomb Raider 2 Settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5279A835146B3D09005D98F8 /* Build configuration list for PBXNativeTarget "Tomb Raider 2 Settings" */;
+			buildPhases = (
+				5279A813146B3D09005D98F8 /* Sources */,
+				5279A814146B3D09005D98F8 /* Frameworks */,
+				5279A815146B3D09005D98F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tomb Raider 2 Settings";
+			productName = "Tomb Raider 2 Settings";
+			productReference = 5279A817146B3D09005D98F8 /* Tomb Raider 2 Settings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5279A80E146B3D08005D98F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5279A811146B3D08005D98F8 /* Build configuration list for PBXProject "Tomb Raider 2 Settings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5279A80C146B3D08005D98F8;
+			productRefGroup = 5279A818146B3D09005D98F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5279A816146B3D09005D98F8 /* Tomb Raider 2 Settings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5279A815146B3D09005D98F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5279A826146B3D09005D98F8 /* InfoPlist.strings in Resources */,
+				5279A82C146B3D09005D98F8 /* Credits.rtf in Resources */,
+				5279A832146B3D09005D98F8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5279A813146B3D09005D98F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5279A828146B3D09005D98F8 /* main.m in Sources */,
+				5279A82F146B3D09005D98F8 /* FQAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5279A824146B3D09005D98F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5279A825146B3D09005D98F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5279A82A146B3D09005D98F8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5279A82B146B3D09005D98F8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5279A830146B3D09005D98F8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5279A831146B3D09005D98F8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5279A833146B3D09005D98F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5279A834146B3D09005D98F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5279A836146B3D09005D98F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tomb Raider 2 Settings/Tomb Raider 2 Settings-Prefix.pch";
+				INFOPLIST_FILE = "Tomb Raider 2 Settings/Tomb Raider 2 Settings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5279A837146B3D09005D98F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tomb Raider 2 Settings/Tomb Raider 2 Settings-Prefix.pch";
+				INFOPLIST_FILE = "Tomb Raider 2 Settings/Tomb Raider 2 Settings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5279A811146B3D08005D98F8 /* Build configuration list for PBXProject "Tomb Raider 2 Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5279A833146B3D09005D98F8 /* Debug */,
+				5279A834146B3D09005D98F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5279A835146B3D09005D98F8 /* Build configuration list for PBXNativeTarget "Tomb Raider 2 Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5279A836146B3D09005D98F8 /* Debug */,
+				5279A837146B3D09005D98F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5279A80E146B3D08005D98F8 /* Project object */;
+}
