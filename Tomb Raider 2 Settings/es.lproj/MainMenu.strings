@@ -1,0 +1,192 @@
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"Bring All to Front" = "Traer todo al frente";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"Window" = "Ventana";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"Minimize" = "Minimizar";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"Window" = "Ventana";
+
+/* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
+"AMainMenu" = "AMainMenu";
+
+/* Class = "NSMenuItem"; title = "Tomb Raider 2 Settings"; ObjectID = "56"; */
+"Tomb Raider 2 Settings" = "Configuración de Tomb Raider II";
+
+/* Class = "NSMenu"; title = "Tomb Raider 2 Settings"; ObjectID = "57"; */
+"Tomb Raider 2 Settings" = "Configuración de Tomb Raider II";
+
+/* Class = "NSMenuItem"; title = "About Tomb Raider 2 Settings"; ObjectID = "58"; */
+"About Tomb Raider 2 Settings" = "Acerca de Configuración de Tomb Raider II";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
+"Preferences…" = "Preferencias…";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"Services" = "Servicios";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"Services" = "Servicios";
+
+/* Class = "NSMenuItem"; title = "Hide Tomb Raider 2 Settings"; ObjectID = "134"; */
+"Hide Tomb Raider 2 Settings" = "Ocultar Configuración de Tomb Raider II";
+
+/* Class = "NSMenuItem"; title = "Quit Tomb Raider 2 Settings"; ObjectID = "136"; */
+"Quit Tomb Raider 2 Settings" = "Salir de Configuración de Tomb Raider II";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"Hide Others" = "Ocultar otros";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"Show All" = "Montrar todo";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "197"; */
+"Copy" = "Copiar";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "198"; */
+"Select All" = "Seleccionar todo";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "199"; */
+"Cut" = "Copiar";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "202"; */
+"Delete" = "Eliminar";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "203"; */
+"Paste" = "Pegar";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "205"; */
+"Edit" = "Edición";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "207"; */
+"Undo" = "Deshacer";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "215"; */
+"Redo" = "Rehacer";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "217"; */
+"Edit" = "Edicion";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; */
+"Zoom" = "Zoom";
+
+/* Class = "NSWindow"; title = "Tomb Raider 2 Settings"; ObjectID = "371"; */
+"Tomb Raider 2 Settings" = "Configuración de Tomb Raider II";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "490"; */
+"Help" = "Ayuda";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "491"; */
+"Help" = "Ayuda";
+
+/* Class = "NSMenuItem"; title = "Tomb Raider 2 Settings Help"; ObjectID = "492"; */
+"Tomb Raider 2 Settings Help" = "Ayuda Configuración de Tomb Raider II";
+
+/* Class = "NSButtonCell"; title = "Play the game"; ObjectID = "537"; */
+"Play" = "Jugar";
+
+/* Class = "NSButtonCell"; title = "Revert settings"; ObjectID = "539"; */
+"Revert settings" = "Resetear Configuración";
+
+/* Class = "NSButtonCell"; title = "Full Screen"; ObjectID = "541"; */
+"Full Screen" = "Pantalla Completa";
+
+/* Class = "NSButtonCell"; title = "Enable Sound"; ObjectID = "543"; */
+"Enable Sound" = "Activar Sonido";
+
+/* Class = "NSTextFieldCell"; title = "Music Volume:"; ObjectID = "551"; */
+"Music Volume:" = "Volumen de la Música:";
+
+/* Class = "NSTextFieldCell"; title = "Sound Effects Volume:"; ObjectID = "553"; */
+"Sound Effects Volume:" = "Volumen de los SFX:";
+
+/* Class = "NSButtonCell"; title = "FlipBroken"; ObjectID = "557"; */
+"FlipBroken" = "Modo Clamshell";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "561"; */
+"10" = "10";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "563"; */
+"10" = "10";
+
+/* Class = "NSTextFieldCell"; title = "Graphics"; ObjectID = "565"; */
+"Graphics" = "Gráficos";
+
+/* Class = "NSTextFieldCell"; title = "Brightness:"; ObjectID = "567"; */
+"Brightness:" = "Brillo:";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "570"; */
+"100" = "100";
+
+/* Class = "NSButtonCell"; title = "Triple buffering"; ObjectID = "575"; */
+"Triple buffering" = "Triple Buffer";
+
+/* Class = "NSButtonCell"; title = "Perspective Correct"; ObjectID = "577"; */
+"Perspective Correct" = "Corrección de Perspectiva";
+
+/* Class = "NSButtonCell"; title = "Skip Lines"; ObjectID = "579"; */
+"Skip Lines" = "Eliminar Interlineado";
+
+/* Class = "NSTextFieldCell"; title = "Window Width:"; ObjectID = "585"; */
+"Window Width:" = "Ancho de la Ventana:";
+
+/* Class = "NSTextFieldCell"; title = "Window Height:"; ObjectID = "587"; */
+"Window Height:" = "Alto de la Ventana:";
+
+/* Class = "NSButtonCell"; title = "Z Buffer"; ObjectID = "589"; */
+"Z Buffer" = "Buffer Z";
+
+/* Class = "NSTextFieldCell"; title = "FSAA:"; ObjectID = "591"; */
+"FSAA:" = "Antialiasing:";
+
+/* Class = "NSTextFieldCell"; title = "Nearest Adjustment:"; ObjectID = "597"; */
+"Nearest Adjustment:" = "Ajuste de Proximidad:";
+
+/* Class = "NSButtonCell"; title = "Wide screen"; ObjectID = "599"; */
+"Wide screen" = "Pantalla Panorámica";
+
+/* Class = "NSButtonCell"; title = "Bilinear Filtering"; ObjectID = "601"; */
+"Bilinear Filtering" = "Ajustar en Filtro Bilineal";
+
+/* Class = "NSTextFieldCell"; title = "Sound"; ObjectID = "607"; */
+"Sound" = "Sonido";
+
+/* Class = "NSTextFieldCell"; title = "Unknown"; ObjectID = "610"; */
+"Unknown" = "Desconocido";
+
+/* Class = "NSButtonCell"; title = "Microphone on Lara"; ObjectID = "612"; */
+"Microphone on Lara" = "Micrófono en Lara";
+
+/* Class = "NSButtonCell"; title = "Doubled"; ObjectID = "614"; */
+"Doubled" = "Duplicado";
+
+/* Class = "NSButtonCell"; title = "Dither"; ObjectID = "616"; */
+"Dither" = "Vacilación";
+
+/* Class = "NSTextFieldCell"; title = "Linear Adjustment:"; ObjectID = "647"; */
+"Linear Adjustment:" = "Ajuste Lineal:";
+
+/* Class = "NSTextFieldCell"; title = "Texel adjust mode:"; ObjectID = "653"; */
+"Texel adjust mode:" = "Ajuste de Texel:";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "706"; */
+"100" = "100";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "712"; */
+"100" = "100";
+
+/* Class = "NSMenuItem"; title = "No adjustment"; ObjectID = "723"; */
+"No adjustment" = "No Ajustar";
+
+/* Class = "NSMenuItem"; title = "Adjust when bilinear filtering"; ObjectID = "724"; */
+"Adjust when bilinear filtering" = "Ajustar en Filtro Bilineal";
+
+/* Class = "NSMenuItem"; title = "Always adjust"; ObjectID = "725"; */
+"Always adjust" = "Ajustar Siempre";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "730"; */
+"100" = "100";
+

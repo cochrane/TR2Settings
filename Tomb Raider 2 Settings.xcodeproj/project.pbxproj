@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52544F6D1734DBE500BF4225 /* DMLocalizedNibBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52544F6C1734DBE500BF4225 /* DMLocalizedNibBundle.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		52544F741734DC1C00BF4225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52544F731734DC1C00BF4225 /* Foundation.framework */; };
+		52544F801734DC3D00BF4225 /* xibLocalizationPostprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 52544F7F1734DC3D00BF4225 /* xibLocalizationPostprocessor.m */; };
+		52544F911734DF1400BF4225 /* MainMenu.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52544F931734DF1400BF4225 /* MainMenu.strings */; };
 		5279A81C146B3D09005D98F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5279A81B146B3D09005D98F8 /* Cocoa.framework */; };
 		5279A826146B3D09005D98F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5279A824146B3D09005D98F8 /* InfoPlist.strings */; };
 		5279A828146B3D09005D98F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5279A827146B3D09005D98F8 /* main.m */; };
@@ -15,7 +19,40 @@
 		5279A832146B3D09005D98F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5279A830146B3D09005D98F8 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		52544F811734DC8500BF4225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5279A80E146B3D08005D98F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52544F711734DC1C00BF4225;
+			remoteInfo = xibLocalizationPostprocessor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52544F701734DC1C00BF4225 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		52544F6C1734DBE500BF4225 /* DMLocalizedNibBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLocalizedNibBundle.m; sourceTree = "<group>"; };
+		52544F721734DC1C00BF4225 /* xibLocalizationPostprocessor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xibLocalizationPostprocessor; sourceTree = BUILT_PRODUCTS_DIR; };
+		52544F731734DC1C00BF4225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52544F7F1734DC3D00BF4225 /* xibLocalizationPostprocessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = xibLocalizationPostprocessor.m; path = DMLocalizedNibBundle/xibLocalizationPostprocessor.m; sourceTree = SOURCE_ROOT; };
+		52544F8A1734DDC100BF4225 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52544F8B1734DDC100BF4225 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = de; path = de.lproj/Credits.rtf; sourceTree = "<group>"; };
+		52544F8D1734DDCB00BF4225 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52544F8E1734DDCB00BF4225 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = es; path = es.lproj/Credits.rtf; sourceTree = "<group>"; };
+		52544F921734DF1400BF4225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		52544F941734DF1800BF4225 /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		52544F951734DF1900BF4225 /* es */ = {isa = PBXFileReference; lastKnownFileType = file; name = es; path = es.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		5279A817146B3D09005D98F8 /* Tomb Raider 2 Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tomb Raider 2 Settings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5279A81B146B3D09005D98F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5279A81E146B3D09005D98F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -32,6 +69,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52544F6F1734DC1C00BF4225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52544F741734DC1C00BF4225 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5279A814146B3D09005D98F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,10 +88,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52544F751734DC1C00BF4225 /* xibLocalizationPostprocessor */ = {
+			isa = PBXGroup;
+			children = (
+				52544F7F1734DC3D00BF4225 /* xibLocalizationPostprocessor.m */,
+				52544F781734DC1C00BF4225 /* Supporting Files */,
+			);
+			path = xibLocalizationPostprocessor;
+			sourceTree = "<group>";
+		};
+		52544F781734DC1C00BF4225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5279A80C146B3D08005D98F8 = {
 			isa = PBXGroup;
 			children = (
 				5279A821146B3D09005D98F8 /* Tomb Raider 2 Settings */,
+				52544F751734DC1C00BF4225 /* xibLocalizationPostprocessor */,
 				5279A81A146B3D09005D98F8 /* Frameworks */,
 				5279A818146B3D09005D98F8 /* Products */,
 			);
@@ -56,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				5279A817146B3D09005D98F8 /* Tomb Raider 2 Settings.app */,
+				52544F721734DC1C00BF4225 /* xibLocalizationPostprocessor */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				5279A81B146B3D09005D98F8 /* Cocoa.framework */,
+				52544F731734DC1C00BF4225 /* Foundation.framework */,
 				5279A81D146B3D09005D98F8 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -82,6 +146,7 @@
 		5279A821146B3D09005D98F8 /* Tomb Raider 2 Settings */ = {
 			isa = PBXGroup;
 			children = (
+				52544F6C1734DBE500BF4225 /* DMLocalizedNibBundle.m */,
 				5279A82D146B3D09005D98F8 /* FQAppDelegate.h */,
 				5279A82E146B3D09005D98F8 /* FQAppDelegate.m */,
 				5279A830146B3D09005D98F8 /* MainMenu.xib */,
@@ -95,6 +160,7 @@
 			children = (
 				5279A823146B3D09005D98F8 /* Tomb Raider 2 Settings-Info.plist */,
 				5279A824146B3D09005D98F8 /* InfoPlist.strings */,
+				52544F931734DF1400BF4225 /* MainMenu.strings */,
 				5279A827146B3D09005D98F8 /* main.m */,
 				5279A829146B3D09005D98F8 /* Tomb Raider 2 Settings-Prefix.pch */,
 				5279A82A146B3D09005D98F8 /* Credits.rtf */,
@@ -105,6 +171,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		52544F711734DC1C00BF4225 /* xibLocalizationPostprocessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52544F7C1734DC1C00BF4225 /* Build configuration list for PBXNativeTarget "xibLocalizationPostprocessor" */;
+			buildPhases = (
+				52544F6E1734DC1C00BF4225 /* Sources */,
+				52544F6F1734DC1C00BF4225 /* Frameworks */,
+				52544F701734DC1C00BF4225 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xibLocalizationPostprocessor;
+			productName = xibLocalizationPostprocessor;
+			productReference = 52544F721734DC1C00BF4225 /* xibLocalizationPostprocessor */;
+			productType = "com.apple.product-type.tool";
+		};
 		5279A816146B3D09005D98F8 /* Tomb Raider 2 Settings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5279A835146B3D09005D98F8 /* Build configuration list for PBXNativeTarget "Tomb Raider 2 Settings" */;
@@ -112,10 +195,12 @@
 				5279A813146B3D09005D98F8 /* Sources */,
 				5279A814146B3D09005D98F8 /* Frameworks */,
 				5279A815146B3D09005D98F8 /* Resources */,
+				52544F831734DC9000BF4225 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				52544F821734DC8500BF4225 /* PBXTargetDependency */,
 			);
 			name = "Tomb Raider 2 Settings";
 			productName = "Tomb Raider 2 Settings";
@@ -136,6 +221,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				es,
 			);
 			mainGroup = 5279A80C146B3D08005D98F8;
 			productRefGroup = 5279A818146B3D09005D98F8 /* Products */;
@@ -143,6 +230,7 @@
 			projectRoot = "";
 			targets = (
 				5279A816146B3D09005D98F8 /* Tomb Raider 2 Settings */,
+				52544F711734DC1C00BF4225 /* xibLocalizationPostprocessor */,
 			);
 		};
 /* End PBXProject section */
@@ -155,28 +243,74 @@
 				5279A826146B3D09005D98F8 /* InfoPlist.strings in Resources */,
 				5279A82C146B3D09005D98F8 /* Credits.rtf in Resources */,
 				5279A832146B3D09005D98F8 /* MainMenu.xib in Resources */,
+				52544F911734DF1400BF4225 /* MainMenu.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52544F831734DC9000BF4225 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export DEVELOPMENT_LANGUAGE=en\n`${SRCROOT}/DMLocalizedNibBundle/slurpLocalizableStrings.zsh`";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		52544F6E1734DC1C00BF4225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52544F801734DC3D00BF4225 /* xibLocalizationPostprocessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5279A813146B3D09005D98F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5279A828146B3D09005D98F8 /* main.m in Sources */,
 				5279A82F146B3D09005D98F8 /* FQAppDelegate.m in Sources */,
+				52544F6D1734DBE500BF4225 /* DMLocalizedNibBundle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		52544F821734DC8500BF4225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52544F711734DC1C00BF4225 /* xibLocalizationPostprocessor */;
+			targetProxy = 52544F811734DC8500BF4225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		52544F931734DF1400BF4225 /* MainMenu.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52544F921734DF1400BF4225 /* en */,
+				52544F941734DF1800BF4225 /* de */,
+				52544F951734DF1900BF4225 /* es */,
+			);
+			name = MainMenu.strings;
+			sourceTree = "<group>";
+		};
 		5279A824146B3D09005D98F8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5279A825146B3D09005D98F8 /* en */,
+				52544F8A1734DDC100BF4225 /* de */,
+				52544F8D1734DDCB00BF4225 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -185,6 +319,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				5279A82B146B3D09005D98F8 /* en */,
+				52544F8B1734DDC100BF4225 /* de */,
+				52544F8E1734DDCB00BF4225 /* es */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -200,6 +336,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		52544F7D1734DC1C00BF4225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52544F7E1734DC1C00BF4225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5279A833146B3D09005D98F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -272,6 +442,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		52544F7C1734DC1C00BF4225 /* Build configuration list for PBXNativeTarget "xibLocalizationPostprocessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52544F7D1734DC1C00BF4225 /* Debug */,
+				52544F7E1734DC1C00BF4225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5279A811146B3D08005D98F8 /* Build configuration list for PBXProject "Tomb Raider 2 Settings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -288,6 +466,7 @@
 				5279A837146B3D09005D98F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
