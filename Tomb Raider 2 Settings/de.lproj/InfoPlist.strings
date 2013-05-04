@@ -1,3 +1,4 @@
 /* Localized versions of Info.plist keys */
 
 CFBundleName = "Tomb Raider 2 Einstellungen";
+CFBundleDisplayName = "Tomb Raider 2 Einstellungen";

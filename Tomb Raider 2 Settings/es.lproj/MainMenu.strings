@@ -149,7 +149,7 @@
 "Wide screen" = "Pantalla Panorámica";
 
 /* Class = "NSButtonCell"; title = "Bilinear Filtering"; ObjectID = "601"; */
-"Bilinear Filtering" = "Ajustar en Filtro Bilineal";
+"Bilinear Filtering" = "Filtro Bilineal";
 
 /* Class = "NSTextFieldCell"; title = "Sound"; ObjectID = "607"; */
 "Sound" = "Sonido";
